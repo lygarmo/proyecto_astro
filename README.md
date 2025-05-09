@@ -8,7 +8,7 @@ Este es un proyecto creado con [Astro](https://astro.build/) para mostrar un por
 1. **Clona el repositorio:**
 
 ```bash
-git clone https://github.com/tu-usuario/tu-repo.git
+git clone https://github.com/lygarmo/proyecto_astro
 ```
 
 2. **Entra en la carpeta de tu proyecto:**
@@ -34,6 +34,7 @@ npm install
 │   └── images/           # Imágenes usadas
 ├── astro.config.mjs      # Configuración de Astro
 └── package.json          # Dependencias y scripts
+
 
 ## 🔧 Desarrollo
 ### Para iniciar el servidor de desarrollo y ver el proyecto en tu navegador:

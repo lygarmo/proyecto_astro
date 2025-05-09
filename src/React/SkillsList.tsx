@@ -37,19 +37,20 @@ const SkillsList = () => {
   const [openItem, setOpenItem] = useState<string | null>(null);
 
   const skills = {
-    "Web Development": [
-      "Single Page Applications (SPAs)",
-      "Landing pages and business websites",
-      "Portfolio websites",
+    "Certificación en PHP": [
+      <p>Certificado por OpenWebinars en PHP</p>,
+      <a href="certificado_php__fundamentos.pdf" download>Descargar Certificado</a>,
+      <img src="fundamentosPHP.png" alt="Certificación en PHP"></img>
     ],
-    "Mobile Development": [
-      "Mobile-friendly web apps",
-      "React Native mobile apps",
+    "Certificación en Symfony": [
+      <p>Certificado por OpenWebinars en Symfony</p>,
+      <a href="certificado_curso_de_symfony_5_intermedio.pdf" download>Descargar Certificado</a>,
+      <img src="symfony_inter.png" alt="Certificación Symfony 5: intermedio"></img>
     ],
-    "UI/UX Design & Prototyping": [
-      "UI design with Figma & Canva",
-      "UX research & improvements",
-      "Prototyping for websites & mobile apps",
+    "Experencia": [
+      <a href="CV_LydiaGarciaMolina.pdf" download>Descárgalo aquí</a>,
+      <img src="cv.jpg" alt="Vista previa de mi CV"></img>
+      
     ],
   };
 

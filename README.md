@@ -24,16 +24,18 @@ npm install
 ```
 
 ## 🧾 Estructura del Proyecto
+```
 .
-├── public/               # Archivos públicos (favicon, etc.)
+├── public/ # Archivos públicos (favicon, etc.)
 ├── src/
-│   ├── components/       # Componentes reutilizables
-│   ├── layouts/          # Layouts base
-│   ├── pages/            # Páginas del sitio
-│   ├── styles/           # Archivos de estilo (opcional)
-│   └── images/           # Imágenes usadas
-├── astro.config.mjs      # Configuración de Astro
-└── package.json          # Dependencias y scripts
+│ ├── components/ # Componentes reutilizables
+│ ├── layouts/ # Layouts base
+│ ├── pages/ # Páginas del sitio
+│ ├── styles/ # Archivos de estilo (opcional)
+│ └── images/ # Imágenes usadas
+├── astro.config.mjs # Configuración de Astro
+└── package.json # Dependencias y scripts
+```
 
 
 ## 🔧 Desarrollo
